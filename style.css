@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("Fonts/Roboto-Regular.ttf"); 
+  } 
+*{
+	margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 1000px;
+    background-image: url(Images/img1.jpg);
+    background-size: cover;
+}
+.Tourism {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+body {
+    font-family: 'Roboto-Regular';
+}
+.first {
+    color: silver;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-top: 300px;
+}
+.second {
+    color: white;
+    font-size: 100px;
+    padding-left: 200px;
+}
+.lorem {
+    color: silver;
+    font-size: 20px;
+    width: 700px;
+    padding-left: 200px;
+}
+.gallery-box {
+width: 100%;
+height: 1000px;
+margin-bottom: 150px;
+}
+.red {
+    width: 1400px;
+    height: 950px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.blue {
+    /* border: 1px solid blue; */
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+.pink-first {
+   /* border: 3px solid rgb(224, 100, 224); */
+    font-size: 60px;
+    margin: auto;
+}
+.pink-second {
+   /* border: 3px solid rgb(224, 100, 224); */
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+}
+.Gallery {
+    display: flex;
+   width: 1400px;
+   height: 800px;
+  /* border: 3px solid rgb(255, 115, 0); */
+   margin-top: 40px;
+   }
+   .Gallery img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+   }
+   .Gallery img {
+       transition: 1s;
+   }
+.first-blue {
+width: 50%;
+min-height: 700px;
+/* border: 3px solid blue; */
+}
+    .first-blue img {
+        width: 100%;
+    }
+.second-blue {
+width: 50%;
+min-height: 700px;
+/* border: 3px solid blue; */
+margin-left: 20px; 
+}
+.second-blue img {
+    width: 100%;
+}
+.second-blue img:first-child {
+    margin-bottom: 15px;
+}
+footer {
+width: 100%;
+height: 400px;
+background-image: url(Images/img3.jpg);
+background-size: cover;
+padding-top: 200px;
+}
+.Lorem-Ipsum {
+font-size:  30px;
+border: 3px solid white;
+margin: auto;
+width: 177px;
+color: white;
+padding: 10px;
+}
+.second-lorem {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+    color: white;
+    width: 900px;
+    line-height: 57px;
+}
+.invisible-text {
+    color: white;
+    margin: auto;
+    padding-top: 50px;
+    width: 200px;
+    font-style: italic;
+    opacity: 0.1;
+    transition: 1s;
+}
+.invisible-text:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
